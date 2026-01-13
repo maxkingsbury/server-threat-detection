@@ -17,6 +17,8 @@ A defensive security testing environment to detect attacks against a modern Linu
 - `samples/` – Sanitized example logs
 - `docs/` – Lab documentation and analysis
 
+---
+
 ## Server Security Measures
 
 ### Honeypot Validation
