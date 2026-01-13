@@ -17,6 +17,12 @@ A defensive security testing environment to detect attacks against a modern Linu
 - `samples/` – Sanitized example logs
 - `docs/` – Lab documentation and analysis
 
+### Honeypot Validation
+A decoy ssh account named "testadmin" is deployed to mimic an entry point for malicious login attempts
+Upon receiving a login attempt the ip address is blocked and an alert is sent
+
+### File Integrity Monitoring
+
 ## Disclaimer
 This lab is for educational purposes only. All testing was performed
 against systems I own or am authorized to test.
