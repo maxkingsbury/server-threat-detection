@@ -17,11 +17,20 @@ A defensive security testing environment to detect attacks against a modern Linu
 - `samples/` – Sanitized example logs
 - `docs/` – Lab documentation and analysis
 
+## Server Security Measures
+
 ### Honeypot Validation
 A decoy ssh account named "testadmin" is deployed to mimic an entry point for malicious login attempts
 Upon receiving a login attempt the ip address is blocked and an alert is sent
 
 ### File Integrity Monitoring
+Any modification to critical system authentication or authorization files triggers an immediate alert
+- Hash files at startup
+- Periodically re-hash
+- Alert if hash changes
+
+### Cron Persistence Detection
+Any creation or modification of system cron jobs indicates potential persistence and triggers an alert
 
 ## Disclaimer
 This lab is for educational purposes only. All testing was performed
