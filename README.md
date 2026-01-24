@@ -34,6 +34,9 @@ Any modification to critical system authentication or authorization files trigge
 ### Cron Persistence Detection
 Any creation or modification of system cron jobs indicates potential persistence and triggers an alert
 
+### Listening Port Detector
+Any newly opened listening port on the host indicates potential unauthorized service exposure and triggers an alert
+
 ## Disclaimer
 This lab is for educational purposes only. All testing was performed
 against systems I own or am authorized to test.
