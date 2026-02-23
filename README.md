@@ -7,10 +7,22 @@ A defensive security testing environment to detect attacks against a modern Linu
 - Services: OpenSSH
 - Network: VM Host-Only Network
 
-## Goals
-- Understand how common attacks look in system logs
-- Build detection tools to identify attacks
-- Practice thinking from a defence perspective
+## Purpose
+
+This lab environment is built to simulate how a production Linux server 
+might detect intrusion attempts.
+
+The goal is to:
+- Monitor system level authentication files
+- Detect persistence mechanisms
+- Identify unauthorized exposure
+- Log and alert on suspicious login attempts
+
+This project shows:
+- Linux system admin
+- Log analysis
+- File integrity monitoring
+- Basic intrusion detection concepts
 
 ## Repository Structure
 - `detectors/` – Detection scripts
